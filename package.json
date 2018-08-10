@@ -1,0 +1,14 @@
+{
+  "name": "aggregatedecklist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aggregateDecklists.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "thenby": "^1.3.0"
+  }
+}
