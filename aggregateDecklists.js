@@ -114,7 +114,7 @@ const save = (filename, deck) => {
   str = str + `\n\nMaybe: (${countCards(deck.mbb)})`;
   Object.keys(deck.mbb).forEach( card => str = str + '\n' + `${deck.mbb[card]} ${card}`);
 
-  fs.writeFileSync(filename, str);
+  fs.writeFileSync(`./decklists/${filename}`, str);
   console.log(filename, ' successfully saved');
 }
 

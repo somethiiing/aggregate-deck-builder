@@ -20,4 +20,3 @@ let wizards = _.aggregateFrom(`${home}/wiz`);
 
 // _.run('print', `${home}/wiz`);
 _.run('save', `${home}/wiz`, 'Modern UR Wizards.txt');
-
